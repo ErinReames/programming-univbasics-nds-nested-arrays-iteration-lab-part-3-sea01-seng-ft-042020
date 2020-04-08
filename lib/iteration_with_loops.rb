@@ -8,7 +8,7 @@ while row_index < src.count do
     #   Element of the inner array at element_index
     #   The first character of that element...
     
-    if src[row_index][element_index] == String
+    if src[row_index][element_index].is String
       sentence << src[row_index][element_index]
     end
     element_index += 1
